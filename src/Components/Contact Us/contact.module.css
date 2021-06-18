@@ -1,0 +1,307 @@
+@font-face {
+  font-family: TrumpGothicEast-Bold;
+  src: url(../../Fonts/trump_gothic_east_bold.ttf);
+}
+
+.contactUs {
+  margin-left: 272px;
+}
+
+.title {
+  width: 318px;
+  height: 104px;
+  font-family: TrumpGothicEast;
+  font-size: 87px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 1.74px;
+  text-align: center;
+  color: #1f2937;
+  margin-left: 109px;
+  margin-top: 104px;
+}
+
+.name {
+  width: 272px;
+  height: 64px;
+  padding: 21px 144px 21px 24px;
+  border-radius: 3px;
+  border: solid 1px #b6b9bc;
+  margin-top: 63px;
+  text-align: center;
+}
+
+.lastName {
+  width: 272px;
+  height: 64px;
+  padding: 21px 146px 21px 24px;
+  border-radius: 3px;
+  border: solid 1px #b6b9bc;
+  margin-top: 63px;
+  margin-left: 32px;
+}
+
+.inputs {
+  width: 576px;
+  height: 64px;
+  padding: 21px 480px 21px 24px;
+  border-radius: 3px;
+  border: solid 1px #b6b9bc;
+  margin-top: 24px;
+}
+.helpBox{
+
+  margin-top: 58px;
+}
+
+.help {
+  width: 189px;
+  height: 39px;
+  opacity: 0.9;
+  font-family: TrumpGothicEast;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.64px;
+  text-align: left;
+  color: #1f2937;
+}
+
+.textArea {
+  width: 576px;
+  height: 176px;
+  padding: 24px 430px 133px 24px;
+  border-radius: 3px;
+  border: solid 1px #b6b9bc;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  border: solid 1px #b6b9bc;
+  margin-top: 30px;
+}
+
+input[type="checkbox"]:checked {
+  background: #2aa1c0;
+}
+
+
+
+.subscribe {
+  width: 170px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.81;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6b7280;
+}
+
+.button {
+  width: 576px;
+  height: 64px;
+  padding: 23px 266px 22px 267px;
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom, #04cfd2, #027e80);
+  background-color: #027e80;
+  color: white;
+  border: none;
+}
+
+.messageBox{
+   margin-top: 30px;
+   display: flex; 
+   flex-direction: column
+  }
+
+
+.bottomText {
+  width: 446px;
+  height: 37px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.flag {
+  width: 576px;
+  height: 64px;
+  padding: 23px 322px 22px 24px;
+  border-radius: 3px;
+  border: solid 1px #b6b9bc;
+  margin-top: 24px;
+}
+
+.phoneInput {
+  border-style: none;
+}
+
+.phoneInput > input {
+  border-style: none;
+}
+
+.agreement{
+margin-top: 19px;
+ margin-left: 16px
+
+}
+
+@media screen and (max-width: 1024px) {
+  .contactUs {
+    margin-left: 280px;
+  }
+
+  .title {
+    text-align: center;
+    width: 117px;
+    height: 39px;
+    opacity: 0.9;
+    font-family: TrumpGothicEast;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.64px;
+    text-align: left;
+    color: #1f2937;
+  }
+
+  .name {
+    width: 224px;
+    padding: 21px 104px 21px 16px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .lastName {
+    width: 224px;
+    padding: 21px 104px 21px 16px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+
+  .inputs {
+    width: 464px;
+    padding: 21px 368px 21px 16px;
+    margin-top: 10px;
+  }
+
+  .flag {
+    width: 464px;
+    padding: 21px 368px 21px 16px;
+    margin-top: 10px;
+  }
+  .textArea {
+    width: 464px;
+    padding: 16px 334px 142px 16px;
+  }
+
+  .button{
+    width: 464px;
+    height: 64px;
+    padding: 23px 211px 22px 210px;
+  }
+}
+
+@media screen and (min-width:572px) and (max-width:1020px) {
+.contactUs{
+  margin-left: 16px;
+}
+.name{
+  width: 312px;
+  height: 48px;
+  padding: 16px 215px 15px 16px;
+  border-radius: 3px;
+  border: solid 2px #e5e7eb;
+}
+.lastName{
+  width: 312px;
+  height: 48px;
+  padding: 16px 215px 15px 16px;
+  border-radius: 3px;
+  border: solid 2px #e5e7eb;
+}
+.inputs{
+  width: 312px;
+  height: 48px;
+  padding: 16px 102px 15px 16px;
+  border-radius: 3px;
+  border: solid 2px #e5e7eb;
+}
+
+.flag{
+  width: 312px;
+  height: 48px;
+  padding: 16px 102px 15px 16px;
+  border-radius: 3px;
+  border: solid 2px #e5e7eb;
+}
+
+.help{
+  width: 141px;
+  height: 29px;
+  opacity: 0.9;
+  font-family: TrumpGothicEast;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #1f2937;
+  margin-left: 110px;
+  margin-top: 40px;
+}
+
+.helpBox{
+  margin-top: 24px;
+}
+.textArea{
+  width: 312px;
+  height: 152px;
+  padding: 16px 166px 119px 16px;
+  border-radius: 3px;
+  border: solid 2px #e5e7eb;
+}
+
+.button{
+  width: 312px;
+  height: 48px;
+  padding: 14.8px 135px 14.2px 134px;
+}
+.bottomText{
+  width: 272px;
+  height: 55px;
+  margin: 25px 44px 50px 0;
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f2937;
+}
+
+}

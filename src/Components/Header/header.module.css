@@ -1,0 +1,154 @@
+@font-face {
+  font-family: Rubik;
+  src: url(../../Files/Rubik/static/Rubik-Regular.ttf);
+}
+
+.nav {
+  margin-top: 58px;
+  display: flex;
+}
+
+.navBrand {
+  margin-left: 272px;
+}
+.logo {
+  margin-left: 272px;
+  width: 254.2px;
+  height: 37.6px;
+  object-fit: contain;
+}
+
+.links {
+  display: flex;
+}
+
+.about {
+  width: 45px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f2937 !important;
+}
+
+.services {
+  width: 63px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f2937 !important;
+  margin-left: 35px;
+}
+
+.works {
+  width: 44px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f2937 !important;
+  margin-left: 30px;
+}
+
+.career {
+  width: 49px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f2937 !important;
+  margin-left: 38px;
+}
+
+.contact {
+  width: 59px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f2937 !important;
+  margin-left: 34px;
+}
+
+.button {
+  width: 176px;
+  height: 48px;
+  padding: 15px 18px 14px;
+  background-color: #03989b !important;
+  margin-left: 40px;
+}
+.dropDown {
+  width: 21px;
+  height: 19px;
+  margin-left: 70px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f2937 !important;
+}
+
+.drop {
+  width: 16px;
+  height: 7px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #1f2937;
+  background-color: white;
+  border-color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .navBrand {
+    margin-left: 104px;
+  }
+}
+
+@media screen and (min-width:572px) and (max-width:1024px) {
+  .nav{
+    margin-top: 26px;
+  }
+
+  .navBrand{
+    margin-left: 16px;
+  }
+
+  .logo{
+    margin-left: 16px;
+    width: 149.2px;
+    height: 22px;
+    object-fit: contain;
+
+  }
+  
+}

@@ -1,0 +1,96 @@
+.title{
+    margin-left: 917px;
+    margin-top: 88px;
+
+}
+
+.title>p{
+    width: 86px;
+    height: 29px;
+    font-family: TrumpGothicEast;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #1f2937;
+}
+
+.links{
+    margin-left: 724px;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: row;
+}
+
+.all {
+    width: 13px;
+    height: 22px;
+    font-family: TrumpGothicEast;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #03989b;
+    cursor: pointer;
+  }
+
+  .otherLinks{
+        width: 60px;
+        height: 22px;
+        margin-left:  40px;
+        font-family: TrumpGothicEast;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #1f2937;
+        cursor: pointer;
+  }
+
+  .card{
+    width: 380px;
+    height: 512px;
+    /* margin: 95px 24px 24px 366px; */
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/1.png);
+  }
+
+  .live{
+    width: 183px;
+    height: 57px;
+    font-family: TrumpGothicEast;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.96px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .apps{
+    width: 180px;
+    height: 19px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.32px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 370px;
+  }

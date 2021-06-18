@@ -1,0 +1,140 @@
+.container {
+  height: 653px;
+  padding: 0px;
+  background-color: #000000;
+  width: 100%;
+}
+
+.logo {
+  height: 37.6px;
+  object-fit: contain;
+  margin-top: 58.4px;
+  margin-left: 128px;
+  padding: 0px;
+}
+
+.close {
+  padding: 0px !important ;
+  border-bottom: none !important;
+}
+
+.close > button {
+  color: #ffffff;
+  opacity: 1;
+  width: 24.4px;
+  height: 23.8px;
+  opacity: 1;
+  margin: 0px !important;
+  margin-right: 125.7px !important;
+  margin-top: 45px !important;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-left: 552px;
+  padding: 0px;
+}
+
+.about {
+  width: 92px;
+  height: 57px;
+  font-family: TrumpGothicEast;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: 0.96px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.otherLinks {
+  width: 133px;
+  height: 57px;
+  font-family: TrumpGothicEast;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: 0.96px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 16px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.languages {
+  margin-top: 25px;
+  margin-left: 552px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.en {
+  width: 21px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.otherLanguages {
+  width: 22px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #91959b;
+  margin-left: 20px;
+}
+
+.icons {
+  padding: 0px;
+  margin-left: 127px;
+  margin-top: 69px;
+  display: flex;
+}
+
+.facebook {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.otherIcons {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-left: 16px;
+}
+
+.footer {
+  display: flex;
+  padding: 0px;
+}
+
+.button {
+  width: 176px;
+  height: 48px;
+  border: solid 1px #03c4c7 !important;
+  color: #03c4c7 !important;
+  background-color: #000000 !important;
+  margin-top: 55px;
+  margin-left: 241px;
+}

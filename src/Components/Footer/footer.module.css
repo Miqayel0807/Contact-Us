@@ -1,0 +1,381 @@
+@font-face {
+  font-family: Rubik;
+  src: url(../../Files/Rubik/static/Rubik-Regular.ttf);
+}
+
+.container {
+  height: 589px;
+  background-color: #09080d;
+  padding-right: 0px;
+  position: relative;
+}
+
+.footerLogo {
+  width: 190px;
+  height: 29px;
+  margin-top: 54px;
+  margin-left: 242px;
+}
+
+.contactBlock {
+  display: flex;
+  flex-direction: column;
+  margin-left: 272px;
+}
+
+.contactService {
+  width: 61px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.22px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 35px;
+}
+
+.arnology {
+  width: 154px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 28px;
+}
+
+.number {
+  width: 119px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.number2 {
+  width: 119px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 6px;
+}
+
+.companyBlock {
+  display: flex;
+  flex-direction: column;
+  margin-left: 167px;
+}
+.company {
+  width: 72px;
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.22px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 35px;
+}
+.about {
+  width: 40px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 28px;
+}
+
+.works {
+  width: 39px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.career {
+  width: 44px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.team {
+  width: 35px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.estimate {
+  width: 87px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.policy {
+  width: 94px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.faq {
+  width: 27px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 9px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-left: 109px;
+}
+
+.backend {
+  width: 182px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 28px;
+}
+.text {
+  width: 211px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.ui {
+  width: 172px;
+  height: 17px;
+  opacity: 0.65;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+}
+.textbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 83px;
+}
+
+.map {
+  position: absolute;
+  height: 320px;
+  width: 831px;
+  top: 176px;
+  left: 1090px;
+}
+
+.line {
+  width: 1370px;
+  height: 0;
+  border: solid 1px #707070;
+  object-fit: contain;
+  margin-top: 90px;
+  margin-left: 272px;
+  margin-bottom: 0px;
+}
+
+.footer {
+  display: flex;
+  margin-left: 266px;
+  margin-top: 26px;
+}
+
+.copyright {
+  width: 102px;
+  height: 17px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #e5e7eb;
+}
+
+.icons {
+  margin-left: 1090px;
+  display: flex;
+}
+
+.facebook {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.otherIcons {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1024px) {
+  .map {
+    top: 292px;
+    left: 66px;
+    height: 298px;
+  }
+
+  .footerLogo {
+    margin-top: 42.9px;
+    margin-left: 128px;
+  }
+
+  .contactBlock {
+    margin-left: 128px;
+    margin-top: 64px;
+  }
+
+  .companyBlock {
+    margin-left: 62px;
+    margin-top: 64px;
+  }
+  .services {
+    margin-left: 91px;
+    margin-top: 64px;
+  }
+
+  .line {
+    width: 768px;
+    margin-left: 128px;
+    margin-top: 57.2px;
+  }
+
+  .footer {
+    margin-top: 16.2px;
+    margin-left: 128px;
+    font-size: 14px;
+  }
+
+  .icons {
+    margin-left: 482px;
+  }
+
+  .textbox {
+    margin-top: 143.1px;
+  }
+ 
+  
+}
