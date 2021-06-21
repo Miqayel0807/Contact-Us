@@ -36,7 +36,7 @@ const Header = (props) => {
 
                <label style={width<=1024? {display:"none"}: {}} className={styles.dropDown} for="En">En</label>
 
-              <select style={width>=1024? {display:"none"}: {}}className={styles.drop} name="cars" id="cars">
+              <select style={width<=1024? {display:"none"}: {}}className={styles.drop} name="cars" id="cars">
                 <option value="HY">Armenian</option>
                 <option value="Rus">Russian</option>
 

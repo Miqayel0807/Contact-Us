@@ -1,6 +1,6 @@
 @font-face {
     font-family:Rubik ;
-    src: url(../../../Files/Rubik/static/Rubik-Light.ttf);
+    src: url(../../../Files/Rubik/static/Rubik-Medium.ttf);
 }
 
 @font-face {
@@ -17,10 +17,13 @@
     margin-left: 66px;
 }
 
-
-
-
 .prefer{
+    width: 302px;
+    margin-left: 0px;
+}
+
+
+.prefer>span{
     width: 249px;
     height: 24px;
     margin: 0 22px 26px 0;
@@ -49,15 +52,9 @@
     color: #1f2937;
     margin-top: 26px;
     margin-bottom: 0px;
+    text-decoration: underline;
 }
 
-.line{
-    width: 119px;
-    height: 0;
-    border: solid 0.5px #6b7280;
-    margin-top: 2px;
-    margin-left: 0px;
-}
 
 .numbers{
     margin-top: 20px;
@@ -95,7 +92,7 @@
 }
 
 .find{
-    width: 66px;
+    width: 67px;
     height: 22px;
     font-family: Rubik;
     font-size: 18px;
@@ -133,6 +130,7 @@
     color: #1f2937;
     margin-bottom: 0px;
     margin-left: 0px;
+    margin-top: 55px;
 }
 
 .title{
@@ -212,7 +210,7 @@ flex-direction: row;
 .image{
     display: flex;
     position: absolute;
-    left: 365px;
+    left: 402px;
     top: 760px;
 }
 
@@ -261,12 +259,98 @@ flex-direction: row;
     
 }
 
-@media screen and (min-width:572px) and (max-width:1023px){
+@media screen and (min-width:360px) and (max-width:1023px){
     .container{
-        width: 360px;
+        width: 100%;
         height: 846px;
-        padding: 42px 61px 21.5px 50px;
         background-color: #f1f1f1;
-        margin-left: 16px;
+        margin-left: 0px;
+        padding: 42px 0px 0px 0px;
+    }
+
+    .prefer{
+        margin-left: 50px;
+    }
+
+    .arnology{
+        margin-left: 121px;
+    }
+    .numbers{
+        margin-left: 115px;
+    }
+
+    .find{
+        margin-left: 147px;
+    }
+
+    .icons{
+        margin-left: 81px;
+    }
+
+    .yerevan{
+        margin-left: 139px;
+        width: 82px;
+        height: 39px;
+        font-family: TrumpGothicEast;
+        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.64px;
+        text-align: center;
+        color: #1f2937;
+    }
+
+    .adress{
+        margin-left: 78px;
+        margin-top: 16px;
+        width: 211px;
+    }
+
+    .textBlock{
+        margin-top: 36px;
+    }
+
+    .leon{
+        width: 34px;
+        height: 29px;
+        font-family: TrumpGothicEast;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.48px;
+        text-align: center;
+        color: #1f2937;
+        margin-left: 163px;
+      
+    }
+
+    .la{
+        width: 16px;
+        height: 29px;
+        font-family: TrumpGothicEast;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.48px;
+        text-align: center;
+        color: #1f2937;
+        margin-left: 172px;
+    }
+
+    .letter{
+        width: 197px;
+        height: 138.5px;
+        object-fit: contain;
+    }
+
+    .image{
+        top: 734px;
+        left: 82px;
     }
 }

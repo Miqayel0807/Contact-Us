@@ -15,8 +15,8 @@ const ContactPage = () => {
         
         <Container style={{ padding: '0px' }} fluid>
             <Header display={changeDisplay} />
-          { display &&  <ContactUs />}
-          {/* <WorksHeader/> */}
+          {/* { display &&  <ContactUs />} */}
+          <WorksHeader/>
           { display &&   <Footer/>}
 
 

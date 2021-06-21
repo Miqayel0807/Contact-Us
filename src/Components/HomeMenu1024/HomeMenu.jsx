@@ -1,4 +1,4 @@
-import { Modal } from 'react-bootstrap'
+import { Container, Modal, Button } from 'react-bootstrap'
 import styles from './homemenu.module.css'
 import logo from '../../Files/whiteLogo.png'
 import facebook from './icons/facebook.svg'
@@ -6,7 +6,6 @@ import twitter from './icons/twitter.svg'
 import instagram from './icons/instagram.svg'
 import github from './icons/github.svg'
 import linkedin from './icons/linkedin.svg'
-import { Button } from 'react-bootstrap'
 
 
 
@@ -14,7 +13,7 @@ const HomeMenu = (props) => {
 
     return (
         <>
-            <div className={styles.container}>
+            <Container fluid className={styles.container}>
 
                 <Modal.Header className={styles.close} onClick={() => props.a()} closeButton>
                     <a className={styles.logo} href="/home"><img src={logo} alt="Logo" /></a>
@@ -50,7 +49,7 @@ const HomeMenu = (props) => {
                 </div>
 
 
-            </div>
+            </Container>
 
         </>
     )

@@ -4,13 +4,13 @@ import styles from './header.module.css'
 
 const WorksHeader = () => {
 
-    // const arr=[]
-    // const [filter, setFilter]
+    const arr=[]
+    const [filter, setFilter]
 
-    // const all=(id)=>{
-    //     console.log(id);
+    const all=(id)=>{
+        console.log(id);
 
-    // }
+    }
     return (
         <>
             <Container fluid style={{ padding: '0px' }}>
@@ -37,7 +37,7 @@ const WorksHeader = () => {
 
                 <Row>
                     <Col xl={4}>
-                        <Card className={styles.card}>
+                        <Card  className={styles.card}>
                             <p className={styles.live}>Live Penalty</p>
                             <p className={styles.apps}>Apps, Web, Ios, Android</p>
                         </Card>

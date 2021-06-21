@@ -22,12 +22,12 @@ const Footer = () => {
                     </Col>
                 </Row>
 
-                <Row style={{  display: 'flex', flexDirection: 'row' }}>
+                <Row className={styles.cols}>
                     <div className={styles.contactBlock} >
                         <span className={styles.contactService}>Contact</span>
                         <span className={styles.arnology}>arnologyllc@gmail.com</span>
-                        <span className={styles.number}>374 90 00 00</span>
-                        <span className={styles.number2}>374 90 00 00</span>
+                        <span className={styles.number}>+374 77 90 00 00</span>
+                        <span className={styles.number2}>+374 77 90 00 00</span>
                     </div>
 
                     <div className={styles.companyBlock} >
@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className={styles.textbox} sm={2} >
+                    <div className={styles.textbox}  >
 
                         <span className={styles.ui}>User Interface design</span>
                         <span className={styles.text}>UX design Services</span>
@@ -71,12 +71,6 @@ const Footer = () => {
 
                     </div>
                     <img className={styles.map} src={map} alt="Map" />
-
-
-
-
-
-
 
                 </Row>
 

@@ -9,14 +9,14 @@ const ContactUs = () => {
 
     return (
         <>
-            <Container fluid>
-                <Row>
-                    <Col >
+            <Container style={{padding:'0px'}} fluid>
+                <Row style={{marginLeft:'0px', marginRight:'0px'}}>
+                    <Col style={{padding:'0px'}} >
                         <div className={styles.contactUs}>
 
                             <p className={styles.title}> CONTACT US</p>
                             <div>
-                                <div >
+                                <div className={styles.header}>
                                     <input className={styles.name} placeholder='Your name *' name='Name' type="text" />
                                     <input className={styles.lastName} placeholder='Last name *' name='LastName' type="text" />
 
@@ -65,7 +65,7 @@ const ContactUs = () => {
                     </Col>
 
 
-                    <Col>
+                    <Col style={{padding:'0px'}}>
                         <RightSide />
 
                     </Col>

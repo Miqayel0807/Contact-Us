@@ -17,6 +17,11 @@
   margin-left: 242px;
 }
 
+.cols{
+  display:flex;
+  flex-direction:row
+}
+
 .contactBlock {
   display: flex;
   flex-direction: column;
@@ -277,10 +282,10 @@
 
 .map {
   position: absolute;
-  height: 320px;
-  width: 831px;
-  top: 176px;
-  left: 1090px;
+  height: 350px;
+  width: 780px;
+  top: 144px;
+  left: 1139px;
 }
 
 .line {
@@ -378,4 +383,112 @@
   }
  
   
+}
+
+@media screen and (min-width:360px) and (max-width:1023px) {
+.map{
+  display: none;
+  
+}
+.services{
+  display: none;
+}
+
+
+.textbox{
+  display:none
+}
+
+.footerLogo{
+  margin-top: 41px;
+  margin-left: 72px;
+}
+
+.cols{
+  flex-direction: column;
+}
+.contactBlock{
+  margin-left: 0px;
+  margin-top: 48px;
+}
+
+
+.contactService{
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+.arnology{
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.number{
+  margin-left: 123px;
+}
+.number2{
+  margin-left: 123px;
+}
+
+.companyBlock{
+  margin-top: 32px;
+  margin-left: 0px;
+}
+ .company{
+   margin-left: 144px;
+   margin-top: 0px;
+ }
+.about{
+  margin-left: 160px;
+  margin-top: 8px;
+}
+
+.works{
+  margin-left: 161px;
+  margin-top: 8px;
+}
+.career{
+  margin-left: 158px;
+  margin-top: 8px;
+}
+
+.team{
+  margin-left: 163px;
+  margin-top: 8px;
+}
+.estimate{
+  margin-left: 137px;
+  margin-top: 8px;
+}
+
+.policy{
+  margin-left: 134px;
+  margin-top: 8px;
+}
+.faq{
+  margin-left: 167px;
+  margin-top: 8px;
+}
+
+.line{
+    width: 328px;
+    border: solid 1px #707070;
+    object-fit: contain;
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.footer{
+  flex-direction: column-reverse;
+  margin-left: 0px;
+}
+
+.icons{
+  margin-left: 88px;
+}
+.copyright{
+  margin-left:114px;
+  margin-top: 24px;
+}
 }

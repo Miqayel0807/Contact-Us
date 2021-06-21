@@ -3,6 +3,11 @@
   src: url(../../Fonts/trump_gothic_east_bold.ttf);
 }
 
+@font-face {
+  font-family: Rubik;
+  src: url(../../Files//Rubik//static/Rubik-Medium.ttf);
+}
+
 .contactUs {
   margin-left: 272px;
 }
@@ -222,9 +227,25 @@ margin-top: 19px;
   }
 }
 
-@media screen and (min-width:572px) and (max-width:1020px) {
+@media screen and (min-width:360px) and (max-width:1023px) {
 .contactUs{
   margin-left: 16px;
+}
+
+.title{
+  width: 117px;
+  height: 39px;
+  opacity: 0.9;
+  font-family: TrumpGothicEast;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.64px;
+  text-align: left;
+  color: #1f2937;
+  margin-left: 122px;
 }
 .name{
   width: 312px;
@@ -232,6 +253,8 @@ margin-top: 19px;
   padding: 16px 215px 15px 16px;
   border-radius: 3px;
   border: solid 2px #e5e7eb;
+  margin-left: 0px;
+  display: block;
 }
 .lastName{
   width: 312px;
@@ -239,6 +262,8 @@ margin-top: 19px;
   padding: 16px 215px 15px 16px;
   border-radius: 3px;
   border: solid 2px #e5e7eb;
+  margin-left: 0px;
+
 }
 .inputs{
   width: 312px;

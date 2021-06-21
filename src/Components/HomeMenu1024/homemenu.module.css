@@ -138,3 +138,41 @@
   margin-top: 55px;
   margin-left: 241px;
 }
+
+@media screen and (min-width:360px) and (max-width:1024px) {
+
+
+  .logo{
+    display: none;
+    
+  }
+
+  .links{
+    margin-left: 50%;
+  }
+
+  .close > button {
+    color: #ffffff;
+    opacity: 1;
+    width: 24.4px;
+    height: 23.8px;
+    opacity: 1;
+    margin: 0px !important;
+    margin-right: 10% !important;
+    margin-top: 0% !important;
+  }
+
+  .languages{
+    margin-left: 50%;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .icons{
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+  .button{
+    margin-left: 20%;
+  }
+}

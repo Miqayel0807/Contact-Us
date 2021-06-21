@@ -12,14 +12,13 @@ const RightSide = () => {
     return (
         <>
             <div className={styles.container}>
-                <div>
+                <div className={styles.prefer}>
                     <span className={styles.prefer}>Prefer to email or phone</span>
 
 
                 </div>
                 <div className={styles.topTexts}>
                     <p className={styles.arnology}>info@arnology.am</p>
-                    <hr className={styles.line} />
 
                 </div>
 
