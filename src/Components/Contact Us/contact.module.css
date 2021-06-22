@@ -144,6 +144,7 @@ input[type="checkbox"]:checked {
   color: #1f2937;
   margin-bottom: 0px;
   margin-top: 20px;
+  margin-left: 65px;
 }
 
 .flag {
@@ -175,19 +176,19 @@ margin-top: 19px;
   }
 
   .title {
-    text-align: center;
-    width: 117px;
-    height: 39px;
+    width: 318px;
+    height: 104px;
     opacity: 0.9;
     font-family: TrumpGothicEast;
-    font-size: 32px;
+    font-size: 87px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
     letter-spacing: 0.64px;
-    text-align: left;
+    text-align: center;
     color: #1f2937;
+    margin-left: 73px;
   }
 
   .name {
@@ -224,6 +225,10 @@ margin-top: 19px;
     width: 464px;
     height: 64px;
     padding: 23px 211px 22px 210px;
+  }
+
+  .bottomText{
+    margin-left: 9px;
   }
 }
 

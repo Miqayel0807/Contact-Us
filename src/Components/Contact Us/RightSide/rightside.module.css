@@ -138,7 +138,7 @@
 }
 
 .adress{
-    width: 204px;
+    width: 211px;
     height: 37px;
     font-family: Rubik;
     font-size: 14px;
@@ -238,6 +238,7 @@ flex-direction: row;
         letter-spacing: 1.74px;
         text-align: center;
         color: #1f2937;
+        margin-left: -16px;
       }
 
       .texts{

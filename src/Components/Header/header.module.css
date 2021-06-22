@@ -3,6 +3,23 @@
   src: url(../../Files/Rubik/static/Rubik-Regular.ttf);
 }
 
+
+
+.container{
+  background-color: #fafafa !important;
+  padding: 0px !important;
+}
+.navBar{
+  padding-left: 0px !important;
+  margin-top: 58.4px;
+  padding: 0px !important;
+
+}
+
+.navBar>a{
+  margin-right: 0px !important;
+
+}
 .nav {
   margin-top: 58px;
   display: flex;
@@ -10,6 +27,7 @@
 
 .navBrand {
   margin-left: 272px;
+  margin-right: 0px !important;
 }
 .logo {
   margin-left: 272px;
@@ -122,7 +140,7 @@
   width: 16px;
   height: 7px;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
   color: #1f2937;
   background-color: white;
   border-color: white;
@@ -144,11 +162,13 @@
   }
 
   .logo{
-    margin-left: 16px;
+    margin-left: 104px;
     width: 149.2px;
     height: 22px;
     object-fit: contain;
 
   }
+
+
   
 }

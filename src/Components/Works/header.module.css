@@ -56,14 +56,131 @@
         cursor: pointer;
   }
 
-  .card{
+.col{
+max-width: 26% !important;
+}
+
+  .cardOne{
     width: 380px;
     height: 512px;
-    /* margin: 95px 24px 24px 366px; */
+    margin-top: 95px;
     padding: 36px 161px 30px 36px;
     object-fit: contain;
     border-radius: 5px;
     background-image: url(./Images/1.png);
+  }
+
+  .cardTwo{
+    width: 380px;
+    height: 512px;
+    margin-top: 95px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/2.png);
+  }
+
+  .cardThree{
+    width: 380px;
+    height: 512px;
+    margin-top: 95px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/3.png);
+  }
+
+  .cardFour{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/4.png);
+  }
+
+  .cardFive{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/5.png);
+  }
+
+  .cardSix{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/6.png);
+  }
+
+  .cardSeven{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/1.png);
+  }
+
+  .cardEight{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/2.png);
+  }
+
+  .cardNine{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/3.png);
+  }
+
+  .cardTen{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    margin-bottom: 161px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/4.png);
+  }
+
+  .cardEleven{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    margin-bottom: 161px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/5.png);
+  }
+
+  .cardTwelve{
+    width: 380px;
+    height: 512px;
+    margin-top: 24px;
+    margin-bottom: 161px;
+    padding: 36px 161px 30px 36px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-image: url(./Images/6.png);
   }
 
   .live{

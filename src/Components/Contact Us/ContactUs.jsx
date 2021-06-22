@@ -53,7 +53,7 @@ const ContactUs = () => {
                                 <div className={styles.bottomText}>
                                     <span>By clicking buton I agree with the collection
                                         and proscessing of my personal data as described in the  
-                                        <span style={{ color: '#04cfd2' }}>Privace policy</span>
+                                        <span style={{ color: '#04cfd2', marginLeft:'3px' }}>Privace policy</span>
                                     </span>
                                 </div>
 

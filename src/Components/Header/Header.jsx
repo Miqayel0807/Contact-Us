@@ -16,19 +16,19 @@ const Header = (props) => {
 
   return (
     <>
-      <Container style={{ padding: '0px' }} sm md fluid >
-       <Navbar expand="xl" style={color ? { display: 'none' } : { display: 'flex' }}>
-          <Navbar.Brand href="#"><img className={styles.logo} src={logo} alt="Logo" /></Navbar.Brand>
+      <Container className={styles.container} sm md fluid >
+       <Navbar className={styles.navBar} expand="xl" style={color ? { display: 'none' } : { display: 'flex' }}>
+          <Navbar.Brand href="/"><img className={styles.logo} src={logo} alt="Logo" /></Navbar.Brand>
           <Navbar.Toggle onClick={() => a()} aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="mr-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px', marginLeft: '430px' }}
+              style={{ maxHeight: '100px', marginLeft: '454px' }}
               navbarScroll
             >
               <Nav.Link style={width<=1024? {display:"none"}: {}} className={styles.about} href="#action1">About</Nav.Link>
               <Nav.Link style={width<=1024? {display:"none"}: {}} className={styles.services} href="#action2">Services</Nav.Link>
-              <Nav.Link style={width<=1024? {display:"none"}: {}}className={styles.works} href="#action2">Works</Nav.Link>
+              <Nav.Link style={width<=1024? {display:"none"}: {}}className={styles.works} href="/works">Works</Nav.Link>
               <Nav.Link style={width<=1024? {display:"none"}: {}} className={styles.career} href="#action2">Career</Nav.Link>
               <Nav.Link style={width<=1024? {display:"none"}: {}} className={styles.contact} href="#action2">Contact</Nav.Link> 
 
