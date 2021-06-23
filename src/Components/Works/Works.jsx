@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Container, Row, Col, Card } from "react-bootstrap"
+import { Container, Row, Col, Card} from "react-bootstrap"
 import styles from './header.module.css'
 
 
@@ -18,7 +18,7 @@ const WorksHeader = () => {
             { name: 'Live Penalty', text: 'Apps, Web, Ios Android', id: 'booking',className:styles.cardNine },
             { name: 'Live Penalty', text: 'Apps, Web, Ios Android', id: 'booking', className:styles.cardTen },
             { name: 'Live Penalty', text: 'Apps, Web, Ios Android', id: 'apps', className:styles.cardEleven },
-            { name: 'Live Penalty', text: 'Apps, Web, Ios Android', id: 'apps', className:styles.cardTwelve }
+            { name: 'Live Penalty', text: 'Apps, Web, Ios Android', id: 'booking', className:styles.cardTwelve }
         ],
         all:[],
         showAll:true,
@@ -131,14 +131,12 @@ const WorksHeader = () => {
                 showApps:false,
             })
         }
-
     }
-
 
     const card = filter.cards.map(index => {
         return (
-            <Col className={styles.col} key={index} xl={4}>
-                <Card className={index.className}>
+            <Col sm={12} lg={2} xl={4} className={styles.col} key={index}>
+                <Card  className={index.className}>
                     <p className={styles.live}>{index.name}</p>
                     <p className={styles.apps}>{index.text}</p>
                 </Card>
@@ -148,8 +146,8 @@ const WorksHeader = () => {
 
     const social = filter.social.map(index => {
         return (
-            <Col style={{padding:'0px'}} key={index} xl={4}>
-                <Card className={index.className}>
+            <Col style={{padding:'0px', marginLeft:'10px', marginRight:'0px'}} key={index} xl={4}>
+                <Card  style={{marginTop:'95px', marginBottom:'161px'}}  className={index.className}>
                     <p className={styles.live}>{index.name}</p>
                     <p className={styles.apps}>{index.text}</p>
                 </Card>
@@ -160,7 +158,7 @@ const WorksHeader = () => {
     const eccomerce = filter.eccomerce.map(index => {
         return (
             <Col style={{padding:'0px'}} key={index} xl={4}>
-                <Card className={index.className}>
+                <Card  style={{marginTop:'95px', marginBottom:'161px'}} className={index.className}>
                     <p className={styles.live}>{index.name}</p>
                     <p className={styles.apps}>{index.text}</p>
                 </Card>
@@ -171,7 +169,7 @@ const WorksHeader = () => {
     const travel = filter.travel.map(index => {
         return (
             <Col style={{padding:'0px'}} key={index} xl={4}>
-                <Card className={index.className}>
+                <Card  style={{marginTop:'95px', marginBottom:'161px'}} className={index.className}>
                     <p className={styles.live}>{index.name}</p>
                     <p className={styles.apps}>{index.text}</p>
                 </Card>
@@ -181,8 +179,8 @@ const WorksHeader = () => {
 
     const booking = filter.booking.map(index => {
         return (
-            <Col style={{padding:'0px'}} key={index} xl={4}>
-                <Card className={index.className}>
+            <Col  style={{padding:'0px'}} key={index} xl={4}>
+                <Card  style={{marginTop:'95px', marginBottom:'161px', marginLeft:'0px'}} className={index.className}>
                     <p className={styles.live}>{index.name}</p>
                     <p className={styles.apps}>{index.text}</p>
                 </Card>
@@ -193,7 +191,7 @@ const WorksHeader = () => {
     const apps = filter.apps.map(index => {
         return (
             <Col style={{padding:'0px'}} key={index} xl={4}>
-                <Card className={index.className}>
+                <Card  style={{marginTop:'95px', marginBottom:'161px'}} className={index.className}>
                     <p className={styles.live}>{index.name}</p>
                     <p className={styles.apps}>{index.text}</p>
                 </Card>
@@ -204,7 +202,7 @@ const WorksHeader = () => {
     const other = filter.other.map(index => {
         return (
             <Col style={{padding:'0px'}} key={index} xl={4}>
-                <Card className={index.className}>
+                <Card style={{marginTop:'95px',  marginBottom:'161px'}} className={index.className}>
                     <p className={styles.live}>{index.name}</p>
                     <p className={styles.apps}>{index.text}</p>
                 </Card>
@@ -234,9 +232,15 @@ const WorksHeader = () => {
                         </div>
                     </Col>
                 </Row>
+              
+              
+               { 
+               filter.showAll && <Row style={{margin:'0px', padding: '0px', justifyContent:'center'}}>
+                {card}
+                </Row>
+                }
 
-                <Row style={{margin:'0px', padding: '0px', marginLeft:'366px'}}>
-                    {filter.showAll && card}
+                <Row style={{margin:'0px', marginLeft:'250px', padding: '0px', justifyContent:'center'}}>
                     {filter.showSocial && social}
                     {filter.showEccomerce && eccomerce}
                     {filter.showTravel && travel}
@@ -244,6 +248,7 @@ const WorksHeader = () => {
                     {filter.showApps && apps}
                     {filter.showOther && other}
                 </Row>
+
             </Container>
         </>
     )

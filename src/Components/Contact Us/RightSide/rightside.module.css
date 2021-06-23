@@ -23,10 +23,11 @@
 }
 
 
-.prefer>span{
+.prefer>p{
     width: 249px;
     height: 24px;
     margin: 0 22px 26px 0;
+    margin-bottom: 0px;
     font-family: Rubik;
     font-size: 20px;
     font-weight: 500;
@@ -129,7 +130,7 @@
     text-align: center;
     color: #1f2937;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: -16px;
     margin-top: 55px;
 }
 
@@ -183,6 +184,12 @@
     text-align: center;
     color: #1f2937;
     margin-bottom: 0px;
+}
+
+.laAdress{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 67px;
 }
 
 .textBlock{
@@ -249,6 +256,12 @@ flex-direction: row;
           margin-top: 26px;
       }
 
+      .laAdress{
+          margin-left: 0px;
+      }
+
+    
+
       .image{
           top: 603px;
           left: 544px;
@@ -307,8 +320,10 @@ flex-direction: row;
         margin-left: 78px;
         margin-top: 16px;
         width: 211px;
-    }
+        text-align: center;
 
+    }
+  
     .textBlock{
         margin-top: 36px;
     }
@@ -342,6 +357,10 @@ flex-direction: row;
         text-align: center;
         color: #1f2937;
         margin-left: 172px;
+    }
+
+    .laAdress{
+        margin-left: 0px;
     }
 
     .letter{

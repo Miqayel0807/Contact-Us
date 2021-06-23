@@ -5,9 +5,7 @@ import { useState } from "react";
 const ContactPage = (props) => {
  const [display, setDisplay]=useState(true)
 
- const changeDisplay=()=>{
-     setDisplay(!display)
- }
+
     return (
         
         <Container style={{ padding: '0px' }} fluid>

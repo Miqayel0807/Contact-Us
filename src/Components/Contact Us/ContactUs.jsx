@@ -9,9 +9,9 @@ const ContactUs = () => {
 
     return (
         <>
-            <Container style={{padding:'0px'}} fluid>
-                <Row style={{marginLeft:'0px', marginRight:'0px'}}>
-                    <Col style={{padding:'0px'}} >
+            <Container style={{ padding: '0px' }} fluid>
+                <Row style={{ marginLeft: '0px', marginRight: '0px' }}>
+                    <Col style={{ padding: '0px' }} >
                         <div className={styles.contactUs}>
 
                             <p className={styles.title}> CONTACT US</p>
@@ -38,8 +38,8 @@ const ContactUs = () => {
 
                                 </div>
 
-                                <div style={{ display: 'flex' }}>
-                                    <input className={styles.checkbox} type="checkbox" />
+                                <div style={{ display: 'flex'}}>
+                                    <input className={styles.checkBox} type="checkbox" />
 
                                     <div className={styles.agreement}>
                                         <span className={styles.subscribe}>Yes I want to subscribe</span>
@@ -52,8 +52,8 @@ const ContactUs = () => {
 
                                 <div className={styles.bottomText}>
                                     <span>By clicking buton I agree with the collection
-                                        and proscessing of my personal data as described in the  
-                                        <span style={{ color: '#04cfd2', marginLeft:'3px' }}>Privace policy</span>
+                                        and proscessing of my personal data as described in the
+                                        <span style={{ color: '#04cfd2', marginLeft: '3px' }}>Privace policy</span>
                                     </span>
                                 </div>
 
@@ -65,7 +65,7 @@ const ContactUs = () => {
                     </Col>
 
 
-                    <Col style={{padding:'0px'}}>
+                    <Col style={{ padding: '0px' }}>
                         <RightSide />
 
                     </Col>

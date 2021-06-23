@@ -15,8 +15,8 @@ const HomeMenu = (props) => {
         <>
             <Container fluid className={styles.container}>
 
-                <Modal.Header className={styles.close} onClick={() => props.a()} closeButton>
-                    <a className={styles.logo} href="/home"><img src={logo} alt="Logo" /></a>
+                <Modal.Header className={styles.close} onClick={() => props.colorChange()} closeButton>
+                    <a className={styles.logo} href="/home"><img className={styles.image} src={logo} alt="Logo" /></a>
                 </Modal.Header>
 
                 <div className={styles.links}>

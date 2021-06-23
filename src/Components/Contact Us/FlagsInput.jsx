@@ -4,7 +4,6 @@ import styles from './contact.module.css'
 function Flags() {
     const [value, setValue] = useState()
     return (
-        <div className={styles.flag}>
             <PhoneInput
                 className={styles.phoneInput}
                 placeholder="Phone Number"
@@ -15,7 +14,6 @@ function Flags() {
                 onChange={setValue}
             />
 
-        </div>
 
 
 

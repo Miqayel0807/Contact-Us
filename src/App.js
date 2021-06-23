@@ -19,12 +19,13 @@ function App() {
     <>
     <Header  display={changeDisplay}/>
       <Switch>
-        <Route path="/" component={ContactPage} exact />
+        <Route path="/" component={display && ContactPage} exact />
         <Route path="/works" component={WorksHeader} exact />
 
-
       </Switch>
-      <Footer display={changeDisplay}/>
+
+      {display &&       <Footer display={changeDisplay}/>
+}
     </>
   );
 }

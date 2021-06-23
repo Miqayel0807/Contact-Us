@@ -6,8 +6,8 @@
 
 
 .container{
-  background-color: #fafafa !important;
   padding: 0px !important;
+  background-color: #fafafa !important;
 }
 .navBar{
   padding-left: 0px !important;
@@ -43,6 +43,7 @@
 .about {
   width: 45px;
   height: 19px;
+  padding: 0px;
   font-family: Rubik;
   font-size: 16px;
   font-weight: normal;
@@ -67,6 +68,7 @@
   text-align: left;
   color: #1f2937 !important;
   margin-left: 35px;
+  padding: 0px;
 }
 
 .works {
@@ -82,6 +84,7 @@
   text-align: left;
   color: #1f2937 !important;
   margin-left: 30px;
+  padding: 0px;
 }
 
 .career {
@@ -97,6 +100,7 @@
   text-align: left;
   color: #1f2937 !important;
   margin-left: 38px;
+  padding: 0px;
 }
 
 .contact {
@@ -112,6 +116,7 @@
   text-align: left;
   color: #1f2937 !important;
   margin-left: 34px;
+  padding: 0px;
 }
 
 .button {
@@ -120,6 +125,7 @@
   padding: 15px 18px 14px;
   background-color: #03989b !important;
   margin-left: 40px;
+  padding: 0px;
 }
 .dropDown {
   width: 21px;
@@ -134,6 +140,8 @@
   letter-spacing: normal;
   text-align: left;
   color: #1f2937 !important;
+  padding:0px ;
+  margin-top: 16px;
 }
 
 .drop {
@@ -144,30 +152,62 @@
   color: #1f2937;
   background-color: white;
   border-color: white;
+  margin-top: 26px;
 }
 
 @media screen and (max-width: 1024px) {
+  .navBar{
+    margin-top: 26px;
+  }
   .navBrand {
     margin-left: 104px;
   }
+
+  .navBar>button {
+    margin-right: 104px !important;
+    border: none !important;
+  }
+
+  .navBar>button>span{
+    background-image: url(./images/menu.png) !important;
+    width: 32px;
+    height: 23px;
+    object-fit: contain;
+  }
+
+
 }
 
 @media screen and (min-width:360px) and (max-width:1024px) {
   .nav{
     margin-top: 26px;
+    margin-left: 16px;
   }
 
   .navBrand{
     margin-left: 16px;
   }
 
+  .navBar>button {
+    margin-right: 16px !important;
+    border: none !important;
+  }
+
+  .navBar>button>span{
+    background-image: url(./images/menu.png) !important;
+    width: 32px;
+    height: 23px;
+    object-fit: contain;
+  }
+
   .logo{
-    margin-left: 104px;
+    margin-left: 26px;
     width: 149.2px;
     height: 22px;
     object-fit: contain;
 
   }
+
 
 
   

@@ -13,7 +13,7 @@ const RightSide = () => {
         <>
             <div className={styles.container}>
                 <div className={styles.prefer}>
-                    <span className={styles.prefer}>Prefer to email or phone</span>
+                    <p className={styles.prefer}>Prefer to email or phone</p>
 
 
                 </div>
@@ -53,7 +53,7 @@ const RightSide = () => {
                             <p className={styles.adress}>49 Tigran Mets Avenue, 5th floor Armenia, Yerevan</p>
                         </div>
 
-                        <div style={{ marginBottom: '0px', marginTop: '0px' }}>
+                        <div className={styles.laAdress}>
                             <p className={styles.la}>LA</p>
                             <p className={styles.adress}>49 Tigran Mets Avenue, 5th floor Armenia, Yerevan</p>
 

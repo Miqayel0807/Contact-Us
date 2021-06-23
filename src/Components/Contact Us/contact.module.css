@@ -10,6 +10,7 @@
 
 .contactUs {
   margin-left: 272px;
+  background-color: #fafafa !important;
 }
 
 .title {
@@ -32,10 +33,12 @@
   width: 272px;
   height: 64px;
   padding: 21px 144px 21px 24px;
+  text-align: left;
   border-radius: 3px;
   border: solid 1px #b6b9bc;
   margin-top: 63px;
   text-align: center;
+  background-color: #fafafa;
 }
 
 .lastName {
@@ -46,6 +49,8 @@
   border: solid 1px #b6b9bc;
   margin-top: 63px;
   margin-left: 32px;
+  background-color: #fafafa;
+
 }
 
 .inputs {
@@ -55,6 +60,8 @@
   border-radius: 3px;
   border: solid 1px #b6b9bc;
   margin-top: 24px;
+  background-color: #fafafa;
+
 }
 .helpBox{
 
@@ -84,16 +91,39 @@
   border: solid 1px #b6b9bc;
 }
 
-.checkbox {
+.checkBox {
+	-webkit-appearance: none;
+	background-color: #fafafa !important;
+	border: 1px solid #cacece !important;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05) !important;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	/* position: relative; */
+  margin-top: 16px;
   width: 24px;
   height: 24px;
-  border-radius: 2px;
-  border: solid 1px #b6b9bc;
-  margin-top: 30px;
+  color: white;
 }
 
-input[type="checkbox"]:checked {
-  background: #2aa1c0;
+.checkBox:active, .checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(36, 15, 15, 0.05), inset 0px 1px 3px rgba(0,0,0,0.1) !important;
+}
+
+.checkBox:checked {
+	background-color: white !important;
+	border: 1px solid white !important;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: red !important;
+}
+
+.checkBox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	/* position: absolute;  */
+	 top: 0px;
+	left: 3px;
+	color: green 
 }
 
 
@@ -110,6 +140,7 @@ input[type="checkbox"]:checked {
   letter-spacing: normal;
   text-align: center;
   color: #6b7280;
+  margin-top: 0px;
 }
 
 .button {
@@ -126,7 +157,9 @@ input[type="checkbox"]:checked {
 .messageBox{
    margin-top: 30px;
    display: flex; 
-   flex-direction: column
+   flex-direction: column;
+
+   
   }
 
 
@@ -147,25 +180,27 @@ input[type="checkbox"]:checked {
   margin-left: 65px;
 }
 
-.flag {
-  width: 576px;
-  height: 64px;
-  padding: 23px 322px 22px 24px;
-  border-radius: 3px;
-  border: solid 1px #b6b9bc;
-  margin-top: 24px;
-}
+
 
 .phoneInput {
-  border-style: none;
+  width: 576px !important;
+  height: 64px !important;
+  padding: 23px 322px 22px 24px !important;
+  border-radius: 3px !important;
+  border: solid 1px #b6b9bc !important;
+  margin-top: 24px !important;
+  background-color: #fafafa !important;
+
 }
 
 .phoneInput > input {
   border-style: none;
+  background-color: #fafafa !important;
+
 }
 
 .agreement{
-margin-top: 19px;
+margin-top: 7px;
  margin-left: 16px
 
 }
@@ -208,17 +243,19 @@ margin-top: 19px;
   .inputs {
     width: 464px;
     padding: 21px 368px 21px 16px;
-    margin-top: 10px;
+    margin-top: 16px;
   }
 
-  .flag {
-    width: 464px;
-    padding: 21px 368px 21px 16px;
-    margin-top: 10px;
+  .phoneInput {
+    width: 464px !important;
+    padding: 21px 364px 21px 16px;
+    margin-top: 16px;
   }
   .textArea {
     width: 464px;
     padding: 16px 334px 142px 16px;
+    background-color: #fafafa !important;
+
   }
 
   .button{
@@ -234,7 +271,7 @@ margin-top: 19px;
 
 @media screen and (min-width:360px) and (max-width:1023px) {
 .contactUs{
-  margin-left: 16px;
+  margin-left: 24px;
 }
 
 .title{
@@ -250,12 +287,13 @@ margin-top: 19px;
   letter-spacing: 0.64px;
   text-align: left;
   color: #1f2937;
-  margin-left: 122px;
+  margin-left: 98px;
+  margin-top: 40px;
 }
 .name{
   width: 312px;
   height: 48px;
-  padding: 16px 215px 15px 16px;
+  padding: 16px 207px 15px 16px;
   border-radius: 3px;
   border: solid 2px #e5e7eb;
   margin-left: 0px;
@@ -264,7 +302,7 @@ margin-top: 19px;
 .lastName{
   width: 312px;
   height: 48px;
-  padding: 16px 215px 15px 16px;
+  padding: 16px 207px 15px 16px;
   border-radius: 3px;
   border: solid 2px #e5e7eb;
   margin-left: 0px;
@@ -278,13 +316,15 @@ margin-top: 19px;
   border: solid 2px #e5e7eb;
 }
 
-.flag{
-  width: 312px;
-  height: 48px;
-  padding: 16px 102px 15px 16px;
-  border-radius: 3px;
-  border: solid 2px #e5e7eb;
+.phoneInput{
+  width: 312px !important;
+  height: 48px !important;
+  padding: 16px 102px 15px 16px !important;
+  border-radius: 3px !important;
+  border: solid 2px #e5e7eb !important;
 }
+
+
 
 .help{
   width: 141px;
@@ -299,12 +339,12 @@ margin-top: 19px;
   letter-spacing: 0.48px;
   text-align: left;
   color: #1f2937;
-  margin-left: 110px;
+  margin-left: 86px;
   margin-top: 40px;
 }
 
 .helpBox{
-  margin-top: 24px;
+  margin-top: 40px;
 }
 .textArea{
   width: 312px;
@@ -312,6 +352,7 @@ margin-top: 19px;
   padding: 16px 166px 119px 16px;
   border-radius: 3px;
   border: solid 2px #e5e7eb;
+  background-color: #fafafa;
 }
 
 .button{
